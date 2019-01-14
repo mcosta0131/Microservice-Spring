@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:db2://s0000va:50000/DBHMVS:currentSchema=HMLBAT;
+    username: davidfe
+    password: i9n@0717
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    tomcat:
+      initial-size: 1
+      max-active: 2
+server:
+  port: 9090
+api:
+  version: 1.0.0.0
